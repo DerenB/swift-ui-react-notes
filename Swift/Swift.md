@@ -20,8 +20,8 @@
   - Upload an image
   - Creates the various sizes of App Icon
   - Both iOS and Android
-
+- [Sean Allen Courses](https://seanallen.teachable.com/courses/)
 
 # Tutorials
 
-- [Sean Allen Courses](https://seanallen.teachable.com/courses/)
+- [SwiftUI Demo - Map App - Swiftful Thinking](https://youtube.com/playlist?list=PLwvDm4Vfkdpha5eVTjLM0eRlJ7-yDDwBk&si=hFcGly-Ct9yR0zhZ)
