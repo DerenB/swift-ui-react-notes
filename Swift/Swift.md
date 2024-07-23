@@ -12,6 +12,7 @@
 - [SF Symbols](https://developer.apple.com/sf-symbols/)
   - Download Page
   - Collection of symbols to go with Apple system font San Francisco
+- [Structure of a SwiftUI App](https://developer.apple.com/tutorials/swiftui-concepts/exploring-the-structure-of-a-swiftui-app)
 - [Apple Colors Guideline](https://developer.apple.com/design/human-interface-guidelines/color)
 
 # Resources 

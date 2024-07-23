@@ -1,7 +1,28 @@
 # SwiftUI Notes
 
 - [SwiftUI Notes](#swiftui-notes)
+- [Project Structure](#project-structure)
 - [Models](#models)
+- [Views](#views)
+
+# Project Structure
+
+- [Apple Source](https://developer.apple.com/tutorials/swiftui-concepts/exploring-the-structure-of-a-swiftui-app)
+- Main File: `MyApp.swift`
+  - Entry point of the app: `@main`
+- Basic Example:
+```
+import SwiftUI
+
+@main
+struct MyApp: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
+    }
+}
+```
 
 # Models
 
@@ -18,3 +39,7 @@ struct Location {
     let link: String
 }
 ```
+
+# Views
+
+- Created with a "SwiftUI View" file
