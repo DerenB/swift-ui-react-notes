@@ -34,6 +34,8 @@ struct LocationsListView: View {
 }
 
 
+/// Extension of base class
+/// Frees up space in the body variable
 extension LocationsListView {
     private func listRowView(location: Location) -> some View {
         HStack {

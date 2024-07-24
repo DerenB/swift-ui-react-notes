@@ -19,13 +19,13 @@ struct Location: Identifiable, Equatable {
     let link: String
     
     
-    /// Identifiable
+    /// Identifiable requirement
     var id: String {
         name + cityName
     }
     
     
-    /// Equatable
+    /// Equatable requirement
     static func == (lhs: Location, rhs: Location) -> Bool {
         lhs.id == rhs.id
     }
