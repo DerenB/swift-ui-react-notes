@@ -4,6 +4,9 @@
 - [Project Structure](#project-structure)
 - [Models](#models)
 - [Views](#views)
+- [ViewModels](#viewmodels)
+- [Animation Examples](#animation-examples)
+    - [Rotate Image](#rotate-image)
 
 # Project Structure
 
@@ -43,3 +46,24 @@ struct Location {
 # Views
 
 - Created with a "SwiftUI View" file
+
+# ViewModels
+
+- Created with a Swift file
+
+# Animation Examples
+
+### Rotate Image
+
+- Rotates an image such as an icon
+- Ex: rotate arrow for opening/closing a dropdown menu
+```
+.overlay(alignment: .leading) {
+    Image(systemName: "arrow.down")
+        .font(.headline)
+        .foregroundColor(.primary)
+        .padding()
+        .rotationEffect(Angle(degrees: vm.showLocationsList ? 180 : 0))
+}
+```
+
