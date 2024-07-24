@@ -15,6 +15,7 @@
 		154D206E2C4DF2AD0025B253 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154D206D2C4DF2AD0025B253 /* LocationsDataService.swift */; };
 		15AECD322C4EF7130034323D /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AECD312C4EF7130034323D /* LocationsView.swift */; };
 		15AECD342C4F35E80034323D /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AECD332C4F35E80034323D /* LocationsViewModel.swift */; };
+		15AECD362C508B1C0034323D /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AECD352C508B1C0034323D /* LocationsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		154D206D2C4DF2AD0025B253 /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
 		15AECD312C4EF7130034323D /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 		15AECD332C4F35E80034323D /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
+		15AECD352C508B1C0034323D /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				15AECD312C4EF7130034323D /* LocationsView.swift */,
+				15AECD352C508B1C0034323D /* LocationsListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				154D206E2C4DF2AD0025B253 /* LocationsDataService.swift in Sources */,
+				15AECD362C508B1C0034323D /* LocationsListView.swift in Sources */,
 				15AECD342C4F35E80034323D /* LocationsViewModel.swift in Sources */,
 				154D205A2C4DF07C0025B253 /* ContentView.swift in Sources */,
 				15AECD322C4EF7130034323D /* LocationsView.swift in Sources */,
