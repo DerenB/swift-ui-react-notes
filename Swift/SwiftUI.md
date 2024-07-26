@@ -7,6 +7,9 @@
 - [ViewModels](#viewmodels)
 - [Animation Examples](#animation-examples)
     - [Rotate Image](#rotate-image)
+- [Random SwiftUI Components](#random-swiftui-components)
+    - [Navigation Bar](#navigation-bar)
+    - [Forms](#forms)
 
 # Project Structure
 
@@ -46,6 +49,7 @@ struct Location {
 # Views
 
 - Created with a "SwiftUI View" file
+- Views must contain a `body` property that returns `some View`
 
 # ViewModels
 
@@ -67,3 +71,30 @@ struct Location {
 }
 ```
 
+# Random SwiftUI Components
+
+### Navigation Bar
+
+- The top screen navigation
+- Put around view content
+```
+NavigationStack {
+    /// Content
+    .navigationTitle("")
+}
+```
+
+### Forms
+
+- Created with `Form` 
+- Can divide items with `Section`
+```
+Form {
+    Section {
+        /// content
+    }
+    Section {
+        /// content
+    }
+}
+```
