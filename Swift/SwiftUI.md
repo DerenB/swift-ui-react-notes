@@ -2,6 +2,7 @@
 
 - [SwiftUI Notes](#swiftui-notes)
 - [Project Structure](#project-structure)
+- [State](#state)
 - [Models](#models)
 - [Views](#views)
 - [ViewModels](#viewmodels)
@@ -25,6 +26,23 @@ struct MyApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+        }
+    }
+}
+```
+
+# State
+
+- Views are created with `struct`
+- Structs rae immutable, so variables can't be changed within the struct
+- Solution: use `@State`
+```
+struct ContentView: View {
+    @State var tapCount = 0
+
+    var body: some View {
+        Button("Tap Count: \(tapCount)") {
+            self.tapCount += 1
         }
     }
 }
