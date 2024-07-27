@@ -3,6 +3,8 @@
 - [SwiftUI Notes](#swiftui-notes)
 - [Project Structure](#project-structure)
 - [State](#state)
+    - [1 Way binding](#1-way-binding)
+    - [2 Way Binding](#2-way-binding)
 - [Models](#models)
 - [Views](#views)
 - [ViewModels](#viewmodels)
@@ -11,6 +13,8 @@
 - [Random SwiftUI Components](#random-swiftui-components)
     - [Navigation Bar](#navigation-bar)
     - [Forms](#forms)
+
+
 
 # Project Structure
 
@@ -31,7 +35,11 @@ struct MyApp: App {
 }
 ```
 
+
+
 # State
+
+### 1 Way binding
 
 - Views are created with `struct`
 - Structs rae immutable, so variables can't be changed within the struct
@@ -47,6 +55,16 @@ struct ContentView: View {
     }
 }
 ```
+
+### 2 Way Binding
+
+- Allows users to change variable values
+- Same as 1 way binding, just need to add `$`
+```
+@State private var name = ""
+TextField("Enter your name", text: $name)
+```
+
 
 # Models
 
@@ -64,14 +82,20 @@ struct Location {
 }
 ```
 
+
+
 # Views
 
 - Created with a "SwiftUI View" file
 - Views must contain a `body` property that returns `some View`
 
+
+
 # ViewModels
 
 - Created with a Swift file
+
+
 
 # Animation Examples
 
@@ -88,6 +112,8 @@ struct Location {
         .rotationEffect(Angle(degrees: vm.showLocationsList ? 180 : 0))
 }
 ```
+
+
 
 # Random SwiftUI Components
 
