@@ -13,6 +13,11 @@
 - [Random SwiftUI Components](#random-swiftui-components)
     - [Navigation Bar](#navigation-bar)
     - [Forms](#forms)
+- [Gradients](#gradients)
+    - [Linear Gradients](#linear-gradients)
+    - [Linear Gradient Stops](#linear-gradient-stops)
+    - [Radial Gradient](#radial-gradient)
+    - [Angular Gradient](#angular-gradient)
 
 
 
@@ -142,3 +147,36 @@ Form {
     }
 }
 ```
+
+
+# Gradients 
+
+### Linear Gradients
+
+- Goes in one direction, specify start and end of direction
+- `LinearGradient(colors: [.red, .blue], startPoint: .top, endPoint: .bottom)`
+
+### Linear Gradient Stops
+
+- Add stops to specify what percentage of the gradient is what color
+```
+LinearGradient(stops: [
+    Gradient.Stop(color: .red, location: 0.10),
+    Gradient.Stop(color: .blue, location: 0.50),
+    Gradient.Stop(color: .green, location: 0.90)
+], startPoint: .top, endPoint: .bottom)
+```
+
+### Radial Gradient
+
+- Circular, from center to outside
+- `RadialGradient(colors: [.red, .blue], center: .center, startRadius: 125, endRadius: 400)`
+
+### Angular Gradient
+
+- Circular, around the center like a clock
+- `AngularGradient(colors: [.red, .yellow, .green, .blue, .purple, .red], center: .center)`
+
+
+
+
