@@ -1,7 +1,7 @@
-import '../styles/App.css'
 
 import Navbar from '../components/Navbar'
 import Home from '../components/Home'
+import List from '../components/List'
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       <Navbar />
       <div className='content'>
         <Home/> 
+        <List />
       </div>
     </div>
   )
