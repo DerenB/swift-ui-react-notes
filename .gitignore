@@ -3,3 +3,4 @@
 *.xcuserstate
 **.xcuserstate
 TailwindCSS/node_modules
+TailwindCSS/package-lock.json
